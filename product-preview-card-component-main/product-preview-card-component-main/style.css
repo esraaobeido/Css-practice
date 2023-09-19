@@ -1,0 +1,66 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.card-content {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+    width: 320px;
+    height: 380px;
+}
+
+.card-content h1 {
+    font-size: 1rem;
+    margin-top: 12px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-content h2 {
+    font-size: 1.5rem;
+    margin-top: 12px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+.card-content .price {
+    color:darkcyan;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card-content .price2 {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.card-content .add-to-cart {
+    background-color: darkcyan;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 12px;
+    width: 200px;
+}
+
+.card-content .add-to-cart:hover {
+    background-color:blue;
+}
